@@ -1,6 +1,6 @@
 # Data Fusion
 
-Projeto da Disciplina Fusão de Dados, utilizando a fusão do modelo GNN treinado com métricas físicas da Rede Adhoc, com métricas do protocolo RADNET, aplicado a filtro de Kalman.
+Projeto da Disciplina Fusão de Dados, utilizando a fusão do modelo GNN treinado com métricas físicas da Rede Adhoc, com métricas do protocolo RADNET.
 
 ## Ambiente
 
@@ -21,7 +21,6 @@ pip install pandas
 pip install numpy
 pip install torch
 pip install torch-geometric
-pip install filterpy
 pip install scikit-learn
 pip install scikit-fuzzy
 pip install matplotlib
