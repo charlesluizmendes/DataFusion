@@ -1,22 +1,22 @@
 # Data Fusion
 
-Projeto da Disciplina Fusão de Dados, utilizando a fusão do modelo GNN treinado com métricas físicas da Rede Adhoc, com métricas do protocolo RADNET.
+Project for the Data Fusion course, using the fusion of a GNN model trained with physical metrics from an Adhoc Network and metrics from the RADNET protocol.
 
-## Ambiente
+## Environment
 
-Todo o desenvolvimento foi realizando utilizando Python 3.12.4.
+All development was performed using Python 3.12.4.
 
-### Pacotes
+### Packages
 
-Podemos instalar as dependências do projeto através do comando abaixo:
+We can install the project dependencies using the command below:
 
-```
+```bash
 $ pip install -r requirements.txt
 ```
 
-Ou manualmente através dos seguintes comandos:
+Or manually through the following commands:
 
-```
+```bash
 pip install pandas
 pip install numpy
 pip install torch
@@ -28,12 +28,12 @@ pip install seaborn
 pip install nbformat
 ```
 
-* Se possuir recursos de CUDA:
+* If you have CUDA resources:
 
-```
+```bash
 pip install torch --index-url https://download.pytorch.org/whl/cu121
 ```
 
-## Execução
+## Execution
 
-Para testar o experimento basta executar os [notebooks](https://github.com/charlesluizmendes/DataFusion/blob/main/src) na ordem em que se encontram.
+To test the experiment, simply run the [notebooks](https://github.com/charlesluizmendes/DataFusion/blob/main/src) in the order they appear.
