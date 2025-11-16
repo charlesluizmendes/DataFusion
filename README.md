@@ -26,6 +26,7 @@ pip install scikit-fuzzy
 pip install matplotlib
 pip install seaborn
 pip install nbformat
+pip install ipykernel
 ```
 
 * If you have CUDA resources:
@@ -36,4 +37,4 @@ pip install torch --index-url https://download.pytorch.org/whl/cu121
 
 ## Execution
 
-To test the experiment, simply run the [notebooks](https://github.com/charlesluizmendes/DataFusion/blob/main/src) in the order they appear.
+To test the experiment, simply run the [run.ipynb](https://github.com/charlesluizmendes/DataFusion/blob/main/run.ipynb) in the order they appear.
